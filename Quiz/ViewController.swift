@@ -78,6 +78,12 @@ class ViewController: UIViewController {
         questionLabel.text = questions[currentQuestionIndex]
         
     }
+    
+    @IBAction func unwindToViewController(_ sender: UIStoryboardSegue)
+    {
+        
+    }
+    
 //After the application is launched, you will want to load he first question from the array and
 //use it to replace the ??? placeholder in the questionLabel labe. A good way to do this is by 
 //overriding the viewDidLoad() method of viewController. ("Override" means that you are providing a
