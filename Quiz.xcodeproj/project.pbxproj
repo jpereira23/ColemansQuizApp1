@@ -14,6 +14,7 @@
 		8007F7801EE72B8800F19F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8007F77E1EE72B8800F19F22 /* LaunchScreen.storyboard */; };
 		8007F78B1EE72B8800F19F22 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007F78A1EE72B8800F19F22 /* QuizTests.swift */; };
 		8007F7961EE72B8800F19F22 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007F7951EE72B8800F19F22 /* QuizUITests.swift */; };
+		8007F7A41EE7732700F19F22 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007F7A31EE7732700F19F22 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8007F7911EE72B8800F19F22 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8007F7951EE72B8800F19F22 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		8007F7971EE72B8800F19F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8007F7A31EE7732700F19F22 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8007F7751EE72B8800F19F22 /* AppDelegate.swift */,
 				8007F7771EE72B8800F19F22 /* ViewController.swift */,
+				8007F7A31EE7732700F19F22 /* SecondViewController.swift */,
 				8007F7791EE72B8800F19F22 /* Main.storyboard */,
 				8007F77C1EE72B8800F19F22 /* Assets.xcassets */,
 				8007F77E1EE72B8800F19F22 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8007F7A41EE7732700F19F22 /* SecondViewController.swift in Sources */,
 				8007F7781EE72B8800F19F22 /* ViewController.swift in Sources */,
 				8007F7761EE72B8800F19F22 /* AppDelegate.swift in Sources */,
 			);
